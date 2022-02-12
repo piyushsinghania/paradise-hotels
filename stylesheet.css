@@ -1,5 +1,6 @@
 body{
     height: 7000px;
+    overflow-x: hidden;
 }
 .headderbox{
     /* border: solid black 2px; */

@@ -1,0 +1,55 @@
+/* tablet devices */
+@media only screen and (max-width: 992px) {
+
+  /* FACILITIES SECTIONS */
+  .container-6 {
+    width: 90%;
+  }
+  
+  .facilities-heading {
+    font-size: 32px;
+  }
+
+  .facilities {
+    font-size: 18px;
+  }
+
+  .our-facilities > div > svg {
+    font-size: 24px;
+  }
+
+}
+
+/* medium devices */
+@media only screen and (max-width: 768px) {
+
+  /* FACILITIES SECTIONS */
+  .facilities-heading {
+    font-size: 28px;
+  }
+
+  .our-facilities {
+    margin: 20px auto;
+  }
+
+  .our-facilities > div {
+    width: 50%;
+  }
+}
+
+/* small devices */
+@media only screen and (max-width: 576px) {
+
+  /* FACILITIES SECTIONS */
+  .facilities-heading {
+    font-size: 20px;
+  }
+
+  .our-facilities > div {
+    width: 100%;
+  }
+
+  .our-facilities > div > svg {
+    font-size: 28px;
+  }
+}

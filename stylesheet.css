@@ -417,117 +417,47 @@ img{
     position: relative;
     bottom: 1640px;
 }
-.container6{
-    /* border: solid black 2px; */
+
+/* FEATURES SECTION */
+.container-6 {
     border-radius: 30px;
     background-color: rgb(245, 245, 245);
-    height: 670px;
-    width: 1095px;
+    width: 80%;
     margin: auto;
-    padding-left: 120px;
-    padding-right: 120px;
     padding-top: 30px;
     position: relative;
     bottom: 1100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-#pvtIcon{
-    float: left;
-    position: relative;
-    left: 87px;
+
+.facilities-heading {
+    font-weight: 700;
+    letter-spacing: 1px;
 }
-#outIcon{
-    position: relative; 
-    bottom: 150px;
-    left: 320px;
+
+.our-facilities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
 }
-#poolIcon{
-    /* margin-left: 50px; */
-    float: right;
-    position: relative;
-    right: 75px;
+
+.our-facilities > div {
+    text-align: center;
+    width: 33%;
+    margin: 25px auto;
 }
-#parkingIcon{
-    float: left;
-    margin-top: 150px;
-    position: relative;
-    right: 0px;
-    left: 55px;
+
+.our-facilities > div > svg {
+    font-size: 30px;
 }
-#wifiIcon{
-    position: relative;
-    bottom: 0px;
-    left: 285px;
-}
-#coffeeIcon{
-    float: right;
-    margin-top: 150px;
-    position: relative;
-    left: -40px;
-    /* right: 100px; */
-}
-#electricityIcon{
-    float: left;
-    margin-top: 300px;
-    position: relative;
-    right: 0px;
-    left: 20px;
-}
-#washingIcon{
-    margin: auto;
-    margin-top: 300px;
-    position: relative;
-    left: 250px;
-}
-#dumbbellIcon{
-    float: right;
-    margin-top: 300px;
-    position: relative;
-    left: -10px;
-}
-#pvtText{    
-    position: relative;
-    bottom: 300px;
-}
-#outText{    
-    position: relative;
-    bottom: 348px;
-    left: 320px;
-}
-#poolText{    
-    position: relative;
-    bottom: 395px;
-    left: 674px;
-}
-#parkingText{    
-    position: relative;
-    bottom: 295px;
-    left: 30px;
-}
-#wifiText{    
-    position: relative;
-    bottom: 340px;
-    left: 375px;
-}
-#coffeeText{    
-    position: relative;
-    bottom: 390px;
-    left: 710px;
-}
-#electricityText{    
-    position: relative;
-    bottom: 290px;
-    left: 20px;
-}
-#washingText{    
-    position: relative;
-    bottom: 335px;
-    left: 340px;
-}
-#dumbbellText{    
-    position: relative;
-    bottom: 380px;
-    left: 725px;
-}
+
 .box6{
     /* border: solid black 2px; */
     height: 100px;
